@@ -183,6 +183,6 @@ with st.form("Ecampus Login"):
             st.success(f"Welcome, {username}!")
             st.write(f"Roll No: {username}")
             st.write(f"CGPA: {cgpa}")
-            st.write(f"CGPA: {cgpa:.2f}")
+            st.write(f"CGPA (2 decimal places): {cgpa:.2f}")
         else:
             st.error("Please provide correct username and password.")
