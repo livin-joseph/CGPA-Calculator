@@ -170,7 +170,7 @@ st.title("CGPA Calculator")
 
 # Create a form for login
 with st.form("Ecampus Login"):
-    st.subheader("Enter your credentials:")
+    st.subheader("Enter your Ecampus credentials:")
     
     username = st.text_input("Username:")
     password = st.text_input("Password:", type="password")
